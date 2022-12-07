@@ -1,0 +1,13 @@
+package org.sdet.oops.abstractdemo;
+
+public class Rectangle extends GraphicObject {
+    @Override
+    void draw() {
+        System.out.println("Drawing rectangle");
+    }
+
+    @Override
+    void resize() {
+        System.out.println("Resizing rectangle");
+    }
+}
