@@ -22,7 +22,7 @@ public class LongestSubstring {
         HashSet<Character> hashSet = new HashSet<>();
 
         while (j < input.length()) {
-            if(!hashSet.contains(input.charAt(j))) {
+            if (!hashSet.contains(input.charAt(j))) {
                 hashSet.add(input.charAt(j));
                 j++;
                 max = Math.max(hashSet.size(), max);

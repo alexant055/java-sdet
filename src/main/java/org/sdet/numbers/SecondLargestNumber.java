@@ -12,7 +12,7 @@ public class SecondLargestNumber {
 
         int secondLarge = -1;
 
-        for (int n: number)
+        for (int n : number)
             if (n > large)
                 secondLarge = large;
 

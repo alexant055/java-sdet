@@ -7,8 +7,7 @@ public class ReverseWords {
         System.out.println(reverseWords(S));
     }
 
-    static String reverseWords(String S)
-    {
+    static String reverseWords(String S) {
 //        StringBuilder builder = new StringBuilder();
 
         String[] sArray = S.trim().split("\\.");
@@ -17,7 +16,7 @@ public class ReverseWords {
 //            builder.append(sArray[i]).append(i > 0 ? "." : "");
 //        }
 
-        for (int i = 0; i < sArray.length/2; i++) {
+        for (int i = 0; i < sArray.length / 2; i++) {
             String temp = sArray[i];
             sArray[i] = sArray[sArray.length - i - 1];
             sArray[sArray.length - i - 1] = temp;

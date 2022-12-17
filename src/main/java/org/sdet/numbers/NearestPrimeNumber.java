@@ -10,7 +10,7 @@ public class NearestPrimeNumber {
         int result = 1;
 
         for (int i = 1; i < 10; i++) {
-            result = isPrime(number + i) ? number + i : isPrime(number-i) ? number - 1 : -1;
+            result = isPrime(number + i) ? number + i : isPrime(number - i) ? number - 1 : -1;
 
             if (result != -1) break;
         }

@@ -3,7 +3,7 @@ package org.sdet.array;
 public class MaxWealth {
 
     public static void main(String[] args) {
-        int[][] accounts = {{2,8,7},{7,1,3},{1,9,5}};
+        int[][] accounts = {{2, 8, 7}, {7, 1, 3}, {1, 9, 5}};
 
         System.out.println(maximumWealth(accounts));
     }

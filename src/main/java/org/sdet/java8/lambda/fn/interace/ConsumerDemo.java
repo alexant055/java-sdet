@@ -3,6 +3,7 @@ package org.sdet.java8.lambda.fn.interace;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+
 public class ConsumerDemo {
 
     public static void main(String[] args) {

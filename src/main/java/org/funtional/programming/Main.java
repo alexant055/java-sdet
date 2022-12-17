@@ -3,7 +3,6 @@ package org.funtional.programming;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static org.funtional.programming.Main.Gender.FEMALE;
 import static org.funtional.programming.Main.Gender.MALE;
