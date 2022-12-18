@@ -1,8 +1,5 @@
 package org.sdet.string;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 public class VersionValidation {
     public static void main(String[] args) {
         System.out.println(isVersionEqual("127.0.0.0", "127.0.0.0"));
@@ -18,7 +15,7 @@ public class VersionValidation {
         int currentVersionLen = currentVersion.length();
         int newVersionLen = newVersion.length();
 
-        if(currentVersionLen < newVersionLen) {
+        if (currentVersionLen < newVersionLen) {
             currentVersion = appendZero(currentVersion, newVersionLen - currentVersionLen);
         } else if (currentVersionLen > newVersionLen) {
             newVersion = appendZero(newVersion, currentVersionLen - newVersionLen);
